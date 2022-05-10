@@ -10,7 +10,7 @@ export default function SignIn() {
    <Box sx={{
        height:"100vh",
        width:"100vw",
-       backgroundColor:"blue",
+       backgroundColor:"#7FB5FF",
        display:"flex",
        justifyContent:"center",
        alignItems:"center"
@@ -55,7 +55,7 @@ FOR BULACAN STATE<br></br> UNIVERSITY BUSTOS CAMPUS
 <Paper elevation={3} sx={{
     height:"600px",
     width:"500px",
-    backgroundColor:"blue",
+    backgroundColor:"#7FB5FF",
     position:"absolute",
     marginLeft:"800px",
     borderRadius:"10px",
@@ -148,9 +148,25 @@ Remember me
     }}>
 Forgot Password?
     </Typography>
+    <Button
+              variant="contained"
+              sx={{
+                marginTop:"70px",
+                marginLeft: "60px",
+                height: "50px",
+                width: "390px",
+                backgroundColor: "#524A4E",
+                color: "white",
+                fontFamily: "fanwood text",
+                fontWeight: "bold",
+                borderRadius: "20px",
+                position:"absolute"
+              }}>
+              CONTINUE WITH GMAIL ACCOUNT
+            </Button>
 </Box>
 <Button variant="contained" sx={{
-    marginBottom:"100px",
+    marginBottom:"60px",
     marginLeft:"180px",
     height:"100px",
     width:"150px",
